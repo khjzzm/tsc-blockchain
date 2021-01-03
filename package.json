@@ -1,0 +1,17 @@
+{
+  "name": "tyc-tutorial",
+  "version": "1.0.0",
+  "description": "tsc-nc",
+  "main": "index.js",
+  "author": "kimhyunjin",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  },
+  "dependencies": {
+    "typescript": "^4.1.3"
+  }
+}
